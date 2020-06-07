@@ -35,8 +35,10 @@ class Form {
     });
 
     this.reset.mousePressed(()=>{
+      player.updateRank(0);
       player.updateCount(0);
       game.update(0);
+      
     });
 
   }
